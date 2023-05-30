@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-This is a group project by Tadala Gomonda and
+This is a group project by Tadala Gomonda and Sika Danquah
 we will attempt to recreate the printf stdio.h library function
 =======
 README.md
@@ -65,6 +64,4 @@ ring
 Handle the following custom conversion specifier:                                   
                                                                                     
 15. *                                                                               
-All the above options work well together. 
-
->>>>>>> 71b4b1c27a78712d08b440800529535eb12d0c4c
+All the above options work well together.
