@@ -7,9 +7,8 @@
 #include <limits.h>
 #include <stdlib.h>
 
-#define FLAG_UNSIGNED  2
+#define FLAG_UNSIGNED 2
 #define FLAG_LOWERCASE 1
-
 
 /**
 * struct param_flags - struct containing flags to get
@@ -27,17 +26,17 @@
 */
 typedef struct param_flags
 {
-	unsigned int plus_flag		: 1;
-	unsigned int space_flag		: 1;
-	unsigned int hash_flag		: 1;
-	unsigned int h_mod		: 1;
-	unsigned int l_mod		: 1;
-	unsigned int zero_flag		: 1;
-	unsigned int minus_flag		: 1;
-	unsigned int unsign		: 1;
+unsigned int plus_flag : 1;
+unsigned int space_flag : 1;
+unsigned int hash_flag : 1;
+unsigned int h_mod : 1;
+unsigned int l_mod : 1;
+unsigned int zero_flag : 1;
+unsigned int minus_flag : 1;
+unsigned int unsign : 1;
 
-	unsigned int width;
-	unsigned int precision;
+unsigned int width;
+unsigned int precision;
 
 } param_func;
 
@@ -52,7 +51,6 @@ typedef struct func_convert
 	char *type;
 	int (*func)(va_list, param_func *);
 } f_convert;
-
 
 /*function prototypes*/
 int _printf(const char *format, ...);
