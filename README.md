@@ -1,11 +1,11 @@
-This is a group project by Tadala Gomonda and Sika Danquah
+This is a group project by Tadala Gomonda and Abigail Commey Danquah
 we will attempt to recreate the printf stdio.h library function
 =======
 README.md
 
 0x11. C - printf team project
 
-Group Project: This is a group project by Tadala Gomonda and
+Group Project: This is a group project by Tadala Gomonda and Abigail Commey Danquah
 we will attempt to recreate the printf stdio.h library function
                                                                                     
 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm
